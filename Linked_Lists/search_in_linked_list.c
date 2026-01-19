@@ -17,7 +17,6 @@ int main() {
 
     for(i = 0; i < n; i++) {
         temp = (struct node*)malloc(sizeof(struct node));
-        printf("Enter data: ");
         scanf("%d", &temp->data);
         temp->next = head;
         head = temp;
